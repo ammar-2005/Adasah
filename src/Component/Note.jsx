@@ -48,7 +48,7 @@ export default function Note() {
           </div>
         </section>
         {/* Search & nav section */}
-       <section className="w-full bg-black pb-20">
+       <section className="w-full bg-black pb-20 ">
            <div className="container mx-auto px-4">
              
              <div className="flex flex-col lg:flex-row items-center justify-between gap-5">

@@ -21,8 +21,9 @@ function App() {
       element: <Layout />,
       children: [
         { path: 'home', element: <Home /> },
+        {index: true , element: <Home /> },
         { path: 'note', element: <Note />  , children:[
-           { index: true, element: <AllArticles/> },
+          { index: true, element: <AllArticles/> },
           {path: 'AllArticles' , element:<AllArticles/> },
           {path: 'Lighting' , element:<Lighting/> },
           {path: 'Portrait' , element:<Portrait/> },
