@@ -1,0 +1,47 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cairo:wght@200..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Arabic:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:wght@428&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Tajawal:wght@200;300;400;500;700;800;900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.btn:hover{
+    transform: translateY(-5px);
+    transition: 0.5s all;
+}
+::selection{
+color: white;
+ background-color: rgba(255, 166, 0, 0.829);
+}
+
+#btn-note:hover {
+    transform: translateY(-3px);
+    transition: 0.3s all;
+}
+
+
+#btn-note:hover i {
+    transform: translateX(-5px); 
+    transition: 0.3s all;
+}
+
+#card-categories{
+    transform: translateY(-5px) ;
+     transition: 0.5s all;
+}
+/* body{
+      font-family: "Tajawal", sans-serif;
+} */
+ .bg-took {
+  background: linear-gradient(to bottom , #FA5400, #FF7A02, #F5A402) !important;
+}
+.email-btn:hover{
+    transform: translateY(-3px);
+    transition: 0.25s ease;
+}
+.text-gradient{
+   background: linear-gradient( to top,#FA5400, #FF7A02, #F5A402) !important;
+     -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 900;
+}
