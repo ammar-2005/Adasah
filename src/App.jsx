@@ -15,29 +15,31 @@ import Privacy from './Privacy'
 import Service from './Service'
 
 function App() {
-  const router = createBrowserRouter([
+ const router = createBrowserRouter([
     {
       path: '/',
       element: <Layout />,
       children: [
         { path: 'home', element: <Home /> },
-        {index: true , element: <Home /> },
-        { path: 'note', element: <Note />  , children:[
+        { index: true, element: <Home /> },
+        { path: 'note', element: <Note />, children: [
           { index: true, element: <AllArticles/> },
-          {path: 'AllArticles' , element:<AllArticles/> },
-          {path: 'Lighting' , element:<Lighting/> },
-          {path: 'Portrait' , element:<Portrait/> },
-          {path: 'Landscape' , element:<Landscape/> },
-          {path: 'Techniques' , element:<Techniques/> },
-          {path: 'Equipment' , element:<Equipment/> },
+          { path: 'AllArticles', element: <AllArticles/> },
+          { path: 'Lighting', element: <Lighting/> },
+          { path: 'Portrait', element: <Portrait/> },
+          { path: 'Landscape', element: <Landscape/> },
+          { path: 'Techniques', element: <Techniques/> },
+          { path: 'Equipment', element: <Equipment/> },
         ] },
         { path: 'about', element: <About /> },
-        { path: 'privacy', element: <Privacy/>},
-        { path: 'service', element: <Service/>},
+        { path: 'privacy', element: <Privacy/> },
+        { path: 'service', element: <Service/> },
         { path: '*', element: <Error /> }
       ]
     }
-  ])
+  ], {
+    basename: '/Adasah'
+  })
 
   return (
     <>
